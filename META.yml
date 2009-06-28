@@ -1,0 +1,19 @@
+---
+name: SparkX-Form-Field-Plugin-StarML
+version: 0.1
+author:
+  - 'James Laver <printf(qw[%s@%s.%s cpan jameslaver com])>'
+abstract: Laziness for defining a field plugin that prints in html or xhtml depending on requirement.
+license: perl
+resources:
+  license: ~
+build_requires:
+  Test::More: 0
+provides:
+  SparkX::Form::Field::Plugin::StarML:
+    file: lib/SparkX/Form/Field/Plugin/StarML.pm
+    version: 0.1
+generated_by: Module::Build version 0.32
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
